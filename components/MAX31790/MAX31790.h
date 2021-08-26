@@ -95,8 +95,8 @@
 #define MAX31790_PWM_FREQ_1_47K             0x07
 #define MAX31790_PWM_FREQ_3_57K             0x08
 #define MAX31790_PWM_FREQ_5K                0x09
-#define MAX31790_PWM_FREQ_12_5K             0x10
-#define MAX31790_PWM_FREQ_25K               0x11
+#define MAX31790_PWM_FREQ_12_5K             0x0A
+#define MAX31790_PWM_FREQ_25K               0x0B
 
 /* MAX31790 Register -------------------------------- */
 // Core Bits //
