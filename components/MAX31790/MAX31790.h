@@ -142,7 +142,7 @@
 #define RPM_MIN             120
 #define RPM_MAX             7864320
 
-#define CALC_RPM_OR_BIT(X,SR,NP)              ((60 * (SR) * 8192)/((X) * (NP)))
+#define CALC_RPM_OR_BIT(X,SR,NP)              ((60 * (SR) * 8192) / (uint64_t)((X) * (NP)))
 #define FAN_TO_CHAN(F)                        (((F) > 5) ? (F - 6) : F)
 #define CONSTRAIN(X, LOW, HIGH)               (((X) < (LOW)) ? (LOW) : ((X) > (HIGH) ? (HIGH) : (X)))
 #define MAP(X, I_MIN, I_MAX, O_MIN, O_MAX)    ((((X) - (I_MIN)) * ((O_MAX) - (O_MIN))) / (((I_MAX) - (I_MIN)) + (O_MIN)))
